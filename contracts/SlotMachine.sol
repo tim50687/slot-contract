@@ -1,11 +1,13 @@
+//SPDX-License-Identifier: UNLICENSED
+
 pragma solidity ^0.8.0;
 
 contract SlotMachine {
     address public owner;
     mapping(address => uint256) public playerBalances;
 
-    event Deposit(address player, uint256 amount);
-    event Withdraw(address player, uint amount);
+    event Deposit(address indexed player, uint256 amount);
+    event Withdraw(address indexed player, uint amount);
 
     constructor() {
         owner = msg.sender;

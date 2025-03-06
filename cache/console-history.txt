@@ -1,0 +1,3 @@
+exit
+exit()
+(await ethers.provider.getBalance("0xYourWalletAddress")).toString();
