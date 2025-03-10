@@ -38,8 +38,8 @@
       ]
     },
     "/Users/jentinghuang/Documents/CSAlign/CS5540/slot-contract/contracts/SlotMachine.sol": {
-      "lastModificationDate": 1741296719342,
-      "contentHash": "c1426bf1e819b0a0dbfd4fb8399818ba",
+      "lastModificationDate": 1741574090787,
+      "contentHash": "ff7eca2821440a4b3ac5ae4ed930c515",
       "sourceName": "contracts/SlotMachine.sol",
       "solcConfig": {
         "version": "0.8.28",
